@@ -34,7 +34,7 @@ function readdir(path, callback) {
             }
           })
         } else {
-          list.push(stats)
+          list.push(Object.assign({paht: filePath}, stats));
           pending -= 1
           if (!pending) {
             return callback(null, list)
