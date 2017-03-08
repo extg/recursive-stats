@@ -1,0 +1,13 @@
+{
+  "name": "recursive-stats",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/extg/recursive-stats"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
